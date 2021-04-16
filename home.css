@@ -1,0 +1,184 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+body {
+	background-image: url("../img/background.jpg") ;
+	background-repeat: no-repeat;
+	background-size: 100% ;
+}
+
+.logo {
+	position: absolute;
+	width: 200px;
+	height: 120px;
+	margin-top: -25px;
+}
+
+.navigasi {
+	width: 1600px;
+	height: 50px;
+	margin: auto;
+	background-color: white;
+	position: fixed;
+}
+
+.navigasi ul li {
+	display: inline-block;
+	padding-top: 15px;
+}
+
+.home {
+	padding-left: 1150px;
+	padding-right: 100px;
+	position: absolute;
+}
+
+.gambar1 {
+	position: absolute;
+	width: 45px;
+	height: 42px;
+	margin-top: -12px;
+	margin-left: 135px;
+}
+
+.gambar2 {
+	position: absolute;
+	width: 45px;
+	height: 42px;
+	margin-top: -12px;
+	margin-left: 1230px;
+}
+
+.thawaf1 {
+	position: absolute;
+	width: 330px;
+	height: 202.36px;
+	margin-left: 100px;
+	margin-top: 90px;
+}
+
+.thawaf2 {
+	position: absolute;
+	width: 330px;
+	height: 202.36px;
+	margin-left: 925px;
+	margin-top: 90px;
+}
+
+.thawaf3 {
+	position: absolute;
+	width: 330px;
+	height: 202.36px;
+	margin-left: 510px;
+	margin-top: 90px;
+}
+
+.teks {
+	position: absolute;
+	margin-top: 310px;
+	margin-left: 95px;
+	color: white;
+}
+
+.border {
+	position: absolute;
+	width: 750px;
+	height: 0px;
+	border: 5px solid #FFFFFF;
+	margin-top: 340px;
+	margin-left: 275px;
+}
+
+.haji {
+	position: absolute;
+	margin-top: 380px;
+	margin-left: 95px;
+}
+
+.ibadah {
+	width: 150px;
+	height: 100px;
+}
+
+.ket1 {
+	text-decoration: none;
+	color: white;
+}
+
+.umroh{
+	position: absolute;
+	margin-top: 380px;
+	margin-left: 280px;
+}
+
+.ibadah2 {
+	width: 150px;
+	height: 100px;
+}
+
+.ket2 {
+	text-decoration: none;
+	color: white;
+}
+
+.tips {
+	position: absolute;
+	margin-top: 380px;
+	margin-left: 465px;
+}
+
+.ibadah3 {
+	width: 150px;
+	height: 100px;
+}
+
+.ket3 {
+	text-decoration: none;
+	color: white;
+}
